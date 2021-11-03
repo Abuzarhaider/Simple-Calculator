@@ -1,0 +1,63 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    background-color: #0c1230;
+}
+
+/* Main div styling */
+.main{
+    margin: auto;
+    height: 70vh;
+    width: 55vw;
+    color: whitesmoke;
+    background-image: linear-gradient(to bottom right, #0F2027, #203A43, #2C5364);
+    padding: 35px;
+    margin-top: 60px;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 0 0 10px 2px whitesmoke;
+}
+
+/* Heading element styling */
+h1{
+    font-family: -webkit-pictograph;
+    cursor: default;
+}
+
+/* Input styling */
+input[type=number]{
+    margin: 15px;
+    padding: 5px;
+    height: 30px;
+    width: 180px;
+    color: whitesmoke;
+    font-size: 22px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+} 
+input[type=number]:focus{
+    border: 1px solid white;
+}
+
+/* Button styling */
+button{
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    color: whitesmoke;
+    font-size: 17px;
+    border: 1px solid white;
+    cursor: pointer;
+    margin: 3px;
+    border-radius: 15px;
+    transition: 0.1s;
+}
+button:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+    font-size: 18px;
+}
